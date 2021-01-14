@@ -115,4 +115,4 @@ def identity(payload):
 jwt = JWT(app, authenticate, identity)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(debug=true,host='0.0.0.0')
